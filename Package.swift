@@ -13,9 +13,9 @@ let package = Package(
         .library(name: "Leaf", targets: ["Leaf"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/gzqyl/leaf-kit.git"),        
-        .package(url: "https://github.com/gzqyl/vapor.git"),
-        .package(url: "https://github.com/gzqyl/swift-algorithms.git"),
+        .package(url: "https://github.com/gzqyl/leaf-kit.git", branch: "main"),        
+        .package(url: "https://github.com/gzqyl/vapor.git", branch: "main"),
+        .package(url: "https://github.com/gzqyl/swift-algorithms.git", branch: "main"),
     ],
     targets: [
         .target(name: "Leaf", dependencies: [
